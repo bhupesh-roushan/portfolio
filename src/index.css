@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    font-family: "Space Grostek", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* .bg-img{
+    background-image:url("./assets/bg-img5.png") ;
+} */
+.bg-img {
+  background-image: radial-gradient(circle, #070751, #040404), url("./assets/bg-img5.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes running-gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  .running-gradient {
+    background: linear-gradient(270deg,#ffffff,  #5260cd,#ffffff,#4e4d4d,#ffffff,#6b60e7,#919090,#ffffff);
+    background-size: 700% 700%;
+    animation: running-gradient 5s ease infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
