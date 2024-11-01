@@ -9,7 +9,7 @@ const Project = () => {
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="mb-20 text-center text-3xl font-bold lg:text-4xl"
+        className="mb-10 text-center text-3xl font-bold lg:text-4xl"
       >
         Projects
       </motion.h2>
@@ -22,14 +22,16 @@ const Project = () => {
             transition={{ duration: 0.5 }}
             whileHover={{ scale: 1.05 }}
             key={project.id}
-            className="group relative max-h-[300px] overflow-hidden rounded-3xl flex items-center justify-center"
+            className="group relative max-h-[300px] overflow-scroll rounded-3xl flex items-center justify-center p-10"
           >
+            <a href={project.projectLink}>
             <motion.img
               whileHover={{ scale: 1.1 }}
               src={project.image}
               alt=""
               className="w-[200px] h-[200px] transition-transform duration-500 group-hover:scale-110 p-10"
             />
+            </a>
 
             <motion.div
               initial={{ opacity: 0 }}

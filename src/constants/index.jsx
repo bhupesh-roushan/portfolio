@@ -1,9 +1,4 @@
-import {
-  FaXTwitter,
-  FaGithub,
-  FaLinkedin,
-  FaInstagram,
-} from "react-icons/fa6";
+import { FaXTwitter, FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
 
 import {
   FaHtml5,
@@ -15,16 +10,15 @@ import {
 } from "react-icons/fa";
 
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiMongodb, SiExpress,SiGmail } from "react-icons/si";
+import { SiMongodb, SiExpress, SiGmail, SiShadcnui } from "react-icons/si";
+import { PiFigmaLogoDuotone } from "react-icons/pi";
+import { TbCircleLetterC } from "react-icons/tb";
 
 import {
   RiSupabaseFill,
   RiTailwindCssFill,
   RiReactjsLine,
 } from "react-icons/ri";
-
-import { PiFigmaLogoDuotone } from "react-icons/pi";
-import { TbCircleLetterC } from "react-icons/tb";
 
 import projectImage1 from "../assets/cubekit.svg";
 import projectImage2 from "../assets/frequencii.svg";
@@ -38,7 +32,6 @@ export const NAVIGATION_LINKS = [
   { label: "INTERNSHIPS", href: "#internships" },
   { label: "EDUCATION", href: "#education" },
   { label: "CONTACT", href: "#contact" },
-  
 ];
 
 export const HERO = {
@@ -77,7 +70,6 @@ export const PROJECTS = [
     projectLink: "https://frequencii.vercel.app",
     image: projectImage2,
   },
- 
 ];
 
 export const BIO = [
@@ -136,6 +128,10 @@ export const SKILLS = [
     name: "Figma",
   },
   {
+    icon: <SiShadcnui className="text-4xl text-white lg:text-4xl" />,
+    name: "ShadCn UI",
+  },
+  {
     icon: <FaPython className="text-4xl text-blue-500 lg:text-5xl" />,
     name: "Python",
   },
@@ -160,18 +156,18 @@ export const EXPERIENCES = [
     duration: "July 2023 - November 2023",
     description:
       "Used Hudl’s software for event analysis and key performance indicators,Provided detailed insights on teams, players, and opponent tendencies. Teamed up with data scientists to develop advanced statistical models.",
-  }
+  },
 ];
 
-export const INTERNSHIPS=[
+export const INTERNSHIPS = [
   {
     title: "Full Stack Web Devloper Intern",
     company: "Varcons Technologies",
     duration: "February 2023 - March 2023",
     description:
       "Worked on the Project named ”Coursezz”, Tech Stack used is Figma, React.Js, MongoDB, Express.Js Node.js.",
-  }
-]
+  },
+];
 
 export const EDUCATION = [
   {
@@ -180,11 +176,10 @@ export const EDUCATION = [
     duration: "September 2018 - June 2023",
     description:
       "Built a strong foundation in electronics and communication systems while developing transferable problem-solving and analytical skills that complement my work as a MERN stack developer. Focused on core areas such as circuit design, microprocessors, and digital systems, while also gaining valuable project experience that has enhanced my ability to work with complex architectures and user interfaces. My engineering background supports my proficiency in frontend development by enabling me to bring precision and a system-oriented mindset to building responsive, user-centered web applications.",
-  }
+  },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
- 
   {
     href: "https://www.instagram.com/roushanwa",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
@@ -202,7 +197,7 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href:"mailto:roushan.bhupesh@gmail.com",
+    href: "mailto:roushan.bhupesh@gmail.com",
     icon: <SiGmail fontSize={25} className="hover:opacity-80" />,
   },
 ];
