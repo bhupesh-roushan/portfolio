@@ -46,7 +46,7 @@ const Hero = () => {
             className="rounded-full shadow-lg shadow-blue-900 border-white border-2"
           />
           <a
-            href="https://drive.google.com/file/d/1z1N8dFJhu0jabMhSyq3ROlJ-6ZwDnupM/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Bi_mbVXMG9vE3l0OiRxyPE97V5UuUon7/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
